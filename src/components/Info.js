@@ -1,8 +1,7 @@
 import React from 'react'
 import profile_pic from "../img/profile_picture.png"
 import "./Info.css"
-import About from "./About"
-import Intrests from './Intrests'
+
 
 export default function Info(){
     return(
@@ -17,8 +16,7 @@ export default function Info(){
                 <button>Linkedin</button>
             </div>
 
-            <About />
-            <Intrests />
+            
         </div>
     )
 }

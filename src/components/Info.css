@@ -1,0 +1,12 @@
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 25;
+}
+
+.developer{
+    color: #F3BF99;
+}

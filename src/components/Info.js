@@ -6,7 +6,7 @@ import "./Info.css"
 export default function Info(){
     return(
         <div>
-            <img src={profile_pic} />
+            <img src={profile_pic} alt="profile picture"/>
             <h1 className="name">Laura Smith</h1>
             <h3 className="developer">Frontend Developer</h3>
             <h5>laurasmith.website</h5>

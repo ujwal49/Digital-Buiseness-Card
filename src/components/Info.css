@@ -1,12 +1,64 @@
-*{
-    font-family: 'Outfit', sans-serif;
+* {
+  font-family: "Outfit", sans-serif;
 }
 
-.name{
-    font-weight: bold;
-    font-size: 25;
+.name {
+  font-weight: bold;
+  font-size: 25;
+  color: #ffffff;
+  margin-top: 21px;
+  text-align: center;
+  margin-bottom: 6px;
 }
 
-.developer{
-    color: #F3BF99;
+.job_role {
+  color: #f3bf99;
+  text-align: center;
+  margin-bottom: 9px;
+}
+
+#portfolio {
+  color: #f5f5f5;
+  text-align: center;
+  margin-bottom: 21px;
+}
+
+#social_media {
+  margin-bottom: 21px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+button {
+  border: none;
+}
+
+#email_btn,
+#linkedin_btn {
+  width: 115px;
+  height: 34px;
+  border-radius: 6px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+#email_btn {
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  color: #374151;
+}
+
+#linkedin_btn {
+  background-color: #5093e2;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#email,
+#linkedin {
+  transform: translate(-10%, 15%);
 }

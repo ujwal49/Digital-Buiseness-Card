@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: #1a1b21;
+  width: 317px;
+  height: fit-content;
+
+  border-radius: 10px 10px 10px 10px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

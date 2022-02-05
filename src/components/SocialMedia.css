@@ -1,0 +1,13 @@
+button {
+  border: none;
+  animation: none;
+  background-color: #161619;
+}
+
+#socialMedia_container {
+  margin-left: 73px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+}
